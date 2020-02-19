@@ -1,0 +1,3 @@
+[submodule "client"]
+	path = client
+	url = https://git.heroku.com/whispering-basin-76372.git
