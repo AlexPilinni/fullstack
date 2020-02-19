@@ -338,7 +338,7 @@ if (content.locals) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\apilin\WebstormProjects\fullstack\client\src\styles.scss */"./src/styles.scss");
+module.exports = __webpack_require__(/*! C:\Users\apilin\Desktop\fullstack\client\src\styles.scss */"./src/styles.scss");
 
 
 /***/ })

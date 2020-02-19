@@ -353,7 +353,7 @@
   /***/
   function _(module, exports, __webpack_require__) {
     module.exports = __webpack_require__(
-    /*! C:\Users\apilin\WebstormProjects\fullstack\client\src\styles.scss */
+    /*! C:\Users\apilin\Desktop\fullstack\client\src\styles.scss */
     "./src/styles.scss");
     /***/
   }
