@@ -13,6 +13,8 @@ const keys = require('./config/keys');
 const app = express();
 const path = require('path');
 
+require('dotenv').config({ path: 'ENV_FILENAME' });
+
 mongoose.connect(keys.mongoURI, { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true })
     .then(() => {
        console.log('mongoDB connected')
