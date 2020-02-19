@@ -13,7 +13,7 @@ const keys = require('./config/keys');
 const app = express();
 const path = require('path');
 
-mongoose.connect(String(keys.mongoURI), { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true })
+mongoose.connect(keys.mongoURI, { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true })
     .then(() => {
        console.log('mongoDB connected')
     })
