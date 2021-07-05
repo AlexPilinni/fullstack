@@ -19,5 +19,4 @@ export class CategoriesPageComponent implements OnInit {
   ngOnInit() {
     this.categories$ = this.categoriesService.fetch();
   }
-
 }
